@@ -9,9 +9,9 @@
 import Foundation
 
 // a simple container which just holds the data in a Tweet
-// a Mention is a substring of the Tweet's text
+// a TwitterUser is a substring of the Tweet's text
 // for example, a hashtag or other user or url that is mentioned in the Tweet
-// note carefully the comments on the range property in a Mention
+// note carefully the comments on the range property in a TwitterUser
 // Tweet instances are created by fetching from Twitter using a Twitter.Request
 
 public struct Tweet : CustomStringConvertible
